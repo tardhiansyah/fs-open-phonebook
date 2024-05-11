@@ -1,0 +1,11 @@
+{
+  "name": "fs-open-phonebook",
+  "version": "1.0.0",
+  "description": "part3 exercises",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Taufik",
+  "license": "MIT"
+}
