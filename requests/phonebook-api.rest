@@ -1,0 +1,35 @@
+### GET ALL PHONEBOOK ENTRIES
+GET http://localhost:3001/api/persons
+
+
+### ADD A NEW PHONEBOOK ENTRY (POSITIVE CASE)
+POST http://localhost:3001/api/persons
+Content-Type: application/json
+
+{
+  "name": "Roberto Martinez",
+  "number": "123-456-7890"
+}
+
+### ADD A NEW PHONEBOOK ENTRY (NEGATIVE CASE)
+POST http://localhost:3001/api/persons
+Content-Type: application/json
+
+{
+  "name": "Roberto Martinez"
+}
+
+
+### GET A SINGLE PHONEBOOK ENTRY (POSITIVE CASE)
+GET http://localhost:3001/api/persons/1
+
+### GET A SINGLE PHONEBOOK ENTRY (NEGATIVE CASE)
+GET http://localhost:3001/api/persons/1000
+
+
+### DELETE A PHONEBOOK ENTRY
+DELETE http://localhost:3001/api/persons/3
+
+
+### INFO
+GET http://localhost:3001/info
